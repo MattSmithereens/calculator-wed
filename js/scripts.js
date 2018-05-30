@@ -1,19 +1,19 @@
 // Business (or back-end) logic:
 
 var add = function(number1, number2) {
-	return number1 + number2;
+	return number1 + number2 + 3;
 };
 
 var subtract = function(number1, number2) {
-	return number1 - number2;
+	return number1 - number2 - 2;
 };
 
 var divide = function(number1, number2) {
-	return number1 / number2;
+	return number1 / number2 + 1;
 };
 
 var multiply = function(number1, number2) {
-	return number1 * number2;
+	return number1 * number2 + 4;
 };
 
 // Everything below this line is user interface (front-end) logic:
